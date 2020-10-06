@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&display=swap');
+
+.header {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    font-family: sans-serif;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 80px;
+    padding: 80px 30px;
+  }
+
+  .copyright {
+      margin-bottom: 20px;
+  }
+
+  .nav {
+      margin: 5px 0 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+  }
+
+  .nav li a {
+      font-size: 22px;
+      color: #111;
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-weight: 300;
+      padding: 5px 2px;
+      margin: 0 10px;
+      text-decoration: none;
+  }
+
+  .nav li a:hover {
+      padding-bottom: 3px;
+      border-bottom: 2px solid #66CDAA;
+  }
+
+  .logo img {
+      display: block;
+      width: 150px;
+  }
+
+  .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: 50px;
+      max-width: 1240px;
+      margin: 0 auto;
+  }
+
+  .gallery .image {
+      padding: 20px;
+      width: 40%;
+  }
+
+  
+
+  @media (max-width: 600px) {
+      .header {
+          display: block;
+          text-align: center;
+      }
+
+      .nav {
+          display: block;
+          margin-top: 20px;
+      }
+
+      .nav li{
+          display: inline-block;
+      }
+
+      .nav li a {
+          font-size: 18px;
+      }
+      .logo {
+          display: inline-block;
+      }
+      .gallery .image {
+          width: auto;
+          padding: 10px 20px;
+      }
+      
+  }
